@@ -1,0 +1,16 @@
+namespace:
+  name: prod
+service:
+  port: 8111
+  type: ClusterIP
+image:
+  repository: nginx
+  tag: 1.18.0
+  pullPolicy: ifNotPresent
+replicatCount: 1
+resources:
+  requests:
+    cpu: 50m
+    memory: 256mi
+configmap:
+  data: "version: 1.18.0"

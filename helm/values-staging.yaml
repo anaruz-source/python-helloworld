@@ -1,5 +1,5 @@
 namespace:
-  name: prod
+  name: staging
 service:
   port: 8111
   type: ClusterIP

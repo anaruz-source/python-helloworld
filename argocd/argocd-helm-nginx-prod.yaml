@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
         - values-prod.yaml
-    path:  helm/templates
+    path:  helm
     repoURL: https://github.com/anaruz-source/python-helloworld
     targetRevision: HEAD
   syncPolicy: {}

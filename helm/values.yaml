@@ -11,6 +11,6 @@ replicatCount: 3
 resources:
   requests:
     cpu: 50m
-    memory: 256mi
+    memory: 256Mi
 configmap:
   data: "version: alpine"

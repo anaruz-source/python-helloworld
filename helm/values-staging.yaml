@@ -11,6 +11,6 @@ replicatCount: 1
 resources:
   requests:
     cpu: 50m
-    memory: 256mi
+    memory: 256Mi
 configmap:
   data: "version: 1.18.0"
